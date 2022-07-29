@@ -1,4 +1,28 @@
 # Deep-Project
+distingush diseases by pictures of crop leaves
+ResNet50으로 transfer learning후 작물 질병 판단
+
+image preprocessing
+
+model
+- ResNet 50
+- textCNN
+
+국민신문고 크롤링
+국민신문고 청원 내용을 크롤링하여 내용을 요약
+
+text preprocessing
+
+model
+- textCNN
+
+libray
+- requests
+- bs4
+- json
+- re
+- konlpy.Okt
+- gensim
 
 cycle GAN
 cycle GAN을 사용하여 인물 사진을 만화그림으로 바꾸기
